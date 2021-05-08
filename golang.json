@@ -12,6 +12,10 @@
       "automerge": true
     },
     {
+      "matchDatasources": ["golang"],
+      "groupName": ["golang dependencies"]
+    },
+    {
       "depTypeList": ["devDependencies"],
       "automerge": true
     }
