@@ -12,7 +12,7 @@
       "automerge": true
     },
     {
-      "matchDatasources": ["golang"],
+      "matchDatasources": ["go"],
       "groupName": ["golang dependencies"]
     },
     {
