@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "prHourlyLimit": 10,
+  "rebaseWhen": "auto",
+  "labels": ["dependencies"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ],
+}
