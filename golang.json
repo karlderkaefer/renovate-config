@@ -1,7 +1,7 @@
 {
   "extends": [
     "config:base",
-    "group:monorepos",
+    "group:monorepos"
   ],
   "prHourlyLimit": 10,
   "rebaseWhen": "auto",
