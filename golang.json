@@ -1,7 +1,8 @@
 {
   "extends": [
     "config:base",
-    "group:monorepos"
+    "group:monorepos",
+    "group:recommended"
   ],
   "prHourlyLimit": 10,
   "rebaseWhen": "auto",
@@ -17,6 +18,21 @@
     },
     {
       "depTypeList": ["devDependencies"],
+      "automerge": true
+    },
+    {
+      "groupName": "all non-major npm dependencies",
+      "groupSlug": "all-minor-patch-npm",
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
       "automerge": true
     },
     {
