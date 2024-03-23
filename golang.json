@@ -13,6 +13,11 @@
       "automerge": true
     },
     {
+      "matchPackagePatterns": ["^actions/"],
+      "groupName": "github actions",
+      "groupSlug": "github-actions"
+    },
+    {
       "matchDatasources": ["go"],
       "groupName": ["golang dependencies"]
     },
