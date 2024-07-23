@@ -13,7 +13,7 @@
       "automerge": true
     },
     {
-      "matchPackagePatterns": ["^actions/"],
+      "matchManagers": ["github-actions"],
       "groupName": "github actions",
       "groupSlug": "github-actions"
     },
