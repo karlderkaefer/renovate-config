@@ -2,7 +2,8 @@
   "extends": [
     "config:recommended",
     "group:monorepos",
-    "group:recommended"
+    "group:recommended",
+    ":configMigration"
   ],
   "prHourlyLimit": 10,
   "rebaseWhen": "auto",
