@@ -19,7 +19,7 @@
       "groupSlug": "github-actions"
     },
     {
-      "matchDatasources": ["go"],
+      "matchDatasources": ["go", "golang"],
       "groupName": ["golang dependencies"]
     },
     {
